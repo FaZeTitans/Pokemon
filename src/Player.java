@@ -3,13 +3,15 @@ public class Player {
     private final float hitbox;
     private int speed;
     private boolean invulnerable;
+    private Inventory inv;
 
     public Player(float x, float y) {
         this.x = x;
         this.y = y;
-        this.hitbox = 20;
+        this.hitbox = 24;
         this.speed = 3;
         this.invulnerable = false;
+        this.inv = new Inventory();
     }
 
     public float getX() {

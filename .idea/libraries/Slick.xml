@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Slick">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/Libs/slick/lib/lwjgl_util.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Libs/slick/lib/ibxm.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Libs/slick/lib/lwjgl_util_applet.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Libs/slick/lib/natives-mac.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Libs/slick/lib/tinylinepp.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Libs/slick/lib/slick.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Libs/slick/lib/jogg-0.0.7.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Libs/slick/lib/natives-linux.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Libs/slick/lib/jorbis-0.0.15.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Libs/slick/lib/natives-windows.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Libs/slick/lib/jinput.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Libs/slick/lib/jnlp.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Libs/slick/lib/lwjgl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$USER_HOME$/Desktop/Libs/lwjgl-2.9.3/lwjgl-2.9.3/native/windows" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>

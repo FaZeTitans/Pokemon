@@ -9,5 +9,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Slick2D" level="application" />
+    <orderEntry type="library" name="Slick" level="application" />
   </component>
 </module>

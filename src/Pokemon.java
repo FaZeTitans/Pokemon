@@ -29,6 +29,7 @@ public class Pokemon extends BasicGame {
     private Image startingScreen;
     private Image mapTexture;
     private Image background;
+    private Image playerTexture;
 
 
     public Pokemon(String title) {
@@ -55,6 +56,7 @@ public class Pokemon extends BasicGame {
         startingScreen= new Image("./resources/startingScreen.png");
         mapTexture = new Image("./resources/grass.png");
         background = new Image("./resources/background.png");
+        playerTexture = new Image("./resources/player.png");
 
         // Superposed Screens
         inventoryShown = false;
@@ -144,8 +146,9 @@ public class Pokemon extends BasicGame {
         g.setLineWidth(15);
         g.drawRoundRect(map.getX(), map.getY(), map.getWidth(), map.getHeight(), 10);
         // Player
-        g.setColor(Color.red);
-        g.fillRect(player.getX(), player.getY(), player.getHitbox(), player.getHitbox());
+        //g.setColor(Color.red);
+        //g.fillRect(player.getX(), player.getY(), player.getHitbox(), player.getHitbox());
+        g.drawImage(playerTexture, player.getX(), player.getY());
 
         // Obstacles
         g.setColor(Color.blue);
